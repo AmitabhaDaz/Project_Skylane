@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: lightblue;
+    text-align: center
+    }
+   
+
+div.ssr {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: lightblue;
+      text-align: centre;
+}
+div.rr {
+    width: 100%;
+    border: 1px solid gray;
+    background-color: white;
+      text-align: left;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+  
+        background-color: white;
+    
+}
+
+
+
+
+</style>
+</head>
+<body bgcolor="blue">
+
+
+
+<header>
+<font color="SeaShell" size="9">
+   <center><font style="font-family:Algerian" color="black" size="9">WELCOME TO SKY-LANE</center></font>
+</header><marquee><font color="SeaShell" size="4"><img src="cc.png"  width="32" height="30" border="0">This the the official site of SKY-LANE booking system..<img src="cc.png"  width="32" height="30" border="0"></font></marquee>
+  <div class="container">
+   <a href="s_search1.html"><img src="flight-search1.png"  width="42" height="50" border="0">&nbsp;&nbsp;<font size="5">Search Your Flight</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+   <a href="book.html"><img src="book.jpg"  width="42" height="50" border="0">&nbsp;&nbsp;<font size="5">Book your Flight</font></a>
+  </div>
+ 
+ <div class="ssr">
+  <center>  
+      <img class="mySlides" src="cc1.jpg" style="width:1250px;height:300px;">
+   <img class="mySlides" src="f11.jpg" style="width:1250px;height:300px;">
+  
+      <img class="mySlides" src="f2.jpg" style="width:1250px;height:300px;">
+  
+  <img class="mySlides" src="f22.jpg" style="width:1250px;height:300px;">
+  
+    <img class="mySlides" src="cc2.jpg" style="width:1250px;height:300px;">
+     <img class="mySlides" src="f3.jpg" style="width:1250px;height:300px;">
+      <img class="mySlides" src="f5.jpg" style="width:1250px;height:300px;">
+       <img class="mySlides" src="f6.jpg" style="width:1250px;height:300px;">
+        <img class="mySlides" src="f7.jpg" style="width:1250px;height:300px;">
+  <img class="mySlides" src="f5.jpg" style="width:1250px;height:300px;">
+  </center>
+  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="login_1.html"><img src="user.png"  width="40" height="40" border="0"><font style="font-family:Lucida Handwriting" size="6" >USER AREA</font>  </a>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="admin.html"><img src="admin.jpg"  width="40" height="40" border="0"><font style="font-family:Lucida Handwriting" size="6">ADMIN AREA</font></a>
+ 
+
+  
+ 
+ </div>
+ <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+<div class="rr">
+<font size="4" color="white"><i>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<a href="help.html">help</a>
+
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+<a href="about.html">about</a>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+<a href="contact.html">  contact us</a></i></font></div>
+
+
+
+</body>
+</html>
+

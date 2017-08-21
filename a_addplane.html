@@ -1,0 +1,58 @@
++<!DOCTYPE html>
+<html>
+<style>
+div.ss {
+    width: 110%;
+    border: 1px solid gray;
+    background-color: blue;
+      text-align: center;
+}
+div.sss {
+    width: 101%;
+    border: 1px solid gray;
+    background-color: lightblue;
+   
+}
+</style>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="ss">
+  <font color="yellow"><h1><center><b>FlyLanes booking System</b></center></h1></font>
+  <font size="4" color="white"><marquee><p>Admin area..</p></marquee></font>
+   </div>
+   <div class="sss">
+   <p align="right">
+  <font color="red">
+  <a href="home.html"><img src="ee.png"  width="42" height="30" border="0">LOG OUT      .</a>
+   </font></p>
+   </div>
+<form action="a_addp.jsp">
+ENTER THE Flight number:<input type="text" name="flightno"><br>
+ENTER THE Company of the plane:<input type="text" name="company"><br>
+ENTER THE Flight source<input type="text" name="source"><br>
+ENTER THE Flight destination<input type="text" name="destination"><br>
+Select the day:<br>
+<select name="day">
+<option value="daily">Daily</option>
+<option value="monday">monday</option>
+<option value="tuesday">tuesday</option>
+<option value="wednesday">wednesday</option>
+<option value="thrusday">thrusday</option>
+<option value="friday">friday</option>
+<option value="saturday">saturday</option>
+<option value="sunday">sunday</option>
+
+</select>
+<input type="hidden" name="s" value="0">
+<br>
+
+<input type="submit" value="save"/>
+</form></div>
+<br><br>
+<center>
+<a href="adminhome.html">BACK..</a></center>
+</body>
+</html>
